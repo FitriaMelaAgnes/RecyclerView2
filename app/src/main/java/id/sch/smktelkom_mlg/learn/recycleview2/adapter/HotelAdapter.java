@@ -34,7 +34,6 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> 
     public void onBindViewHolder(ViewHolder holder, int position) {
         hotel Hotel = hotelList.get(position);
         holder.tvJudul.setText(Hotel.judul);
-        holder.tvDeskripsi.setText(Hotel.deskripsi);
         holder.ivFoto.setImageDrawable(Hotel.foto);
     }
 
@@ -48,13 +47,11 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> 
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView ivFoto;
         TextView tvJudul;
-        TextView tvDeskripsi;
 
         public ViewHolder(View itemView) {
             super(itemView);
             ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
-            tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
         }
     }
 }
