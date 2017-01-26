@@ -2,6 +2,9 @@
 ###SCREENSHOT PROJECT
 ![Screenshot 1](https://github.com/FitriaMelaAgnes/RecyclerView2/blob/master/1.PNG)
 ![Screenshot 2](https://github.com/FitriaMelaAgnes/RecyclerView2/blob/master/2.PNG)
+![Screenshot 2](https://github.com/FitriaMelaAgnes/RecyclerView2/blob/master/3.jpeg)
+
+<br>
 <br>
 <br>
 
